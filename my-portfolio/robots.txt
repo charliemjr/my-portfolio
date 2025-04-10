@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://charliemjr.github.io/my-portfolio/images/hero-bg.jpg
