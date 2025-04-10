@@ -419,6 +419,7 @@
     margin-bottom: 2rem;
     font-family: 'Roboto Slab', serif;
   }
+/* For all screens */
 .portfolio-filters {
   display: flex;
   flex-wrap: wrap;
@@ -436,7 +437,7 @@
   cursor: pointer;
   transition: background 0.3s ease;
   font-weight: 500;
-  .filter-btn:hover,
+}  .filter-btn:hover,
   .filter-btn.active {
     background: #d62828;
   }
@@ -726,11 +727,10 @@
       height: 50px;
     }
   }
-/* For smaller screens */
+  /* For smaller screens */
 @media (max-width: 600px) {
   .filter-btn {
     margin: 0;            /* override if originally set elsewhere */
     padding: 0.4rem 1rem; /* optional smaller padding on mobile */
   }
 }
-  
